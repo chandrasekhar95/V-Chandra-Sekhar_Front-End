@@ -48,7 +48,7 @@ text
 
 return (
 
-<li style={{ backgroundColor: isSelected ? 'green' : 'red' }} onClick={() => onClickHandler(index)} > {text}
+&lt;li style={{ backgroundColor: isSelected ? 'green' : 'red' }} onClick={() => onClickHandler(index)} > {text}
 
 ); };
 
